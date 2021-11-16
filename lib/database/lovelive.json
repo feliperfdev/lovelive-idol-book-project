@@ -1,0 +1,363 @@
+{
+    "idols": {
+        "muses": [
+            {
+                "name": "Kousaka Honoka",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/c/c6/Love_Live%21_infobox_-_Kousaka_Honoka.png/revision/latest?cb=20170402074116",
+                "year": "Second year",
+                "birthday": "August 3",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "157 cm",
+                "favoritefood": "Strawberries",
+                "dislikedfood": "Bell Peppers",
+                "charmpoint": "Her energetic smile"
+            },
+            {
+                "name": "Minami Kotori",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/b/bc/Love_Live%21_infobox_-_Minami_Kotori.png/revision/latest?cb=20170402074118",
+                "year": "Second year",
+                "birthday": "September 12",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "159 cm",
+                "favoritefood": "Cheeswcake",
+                "dislikedfood": "Garlic",
+                "charmpoint": "Soft droopy eyes"
+            },
+            {
+                "name": "Sonoda Umi",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/36/Love_Live%21_infobox_-_Sonoda_Umi.png/revision/latest?cb=20170402074119",
+                "year": "Second year",
+                "birthday": "March 15",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "159 cm",
+                "favoritefood": "The Kosaka Family's Manjuu",
+                "dislikedfood": "Carbonated Beverages",
+                "charmpoint": "Her long black hair since childhood["
+            },
+            {
+                "name": "Nishikino Maki",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/24/Love_Live%21_infobox_-_Nishikino_Maki.png/revision/latest?cb=20170402074121",
+                "year": "First year",
+                "birthday": "April 19",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "161 cm",
+                "favoritefood": "Tomatoes",
+                "dislikedfood": "Mikan",
+                "charmpoint": "Her beauty and overflowing intelligence"
+            },
+            {
+                "name": "Hoshizora Rin",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/38/Love_Live%21_infobox_-_Hoshizora_Rin.png/revision/latest?cb=20170402074119",
+                "year": "First year",
+                "birthday": "November 1",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "155 cm",
+                "favoritefood": "Ramen",
+                "dislikedfood": "Fish",
+                "charmpoint": "Her cute and shapely butt"
+            },
+            {
+                "name": "Koizumi Hanayo",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/70/Love_Live%21_infobox_-_Koizumi_Hanayo.png/revision/latest?cb=20170402074123",
+                "year": "First year",
+                "birthday": "January 17",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "156 cm",
+                "favoritefood": "White rice",
+                "dislikedfood": "None",
+                "charmpoint": "Her soft cheeks"
+            },
+            {
+                "name": "Yazawa Nico",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/39/Love_Live%21_infobox_-_Yazawa_Nico.png/revision/latest?cb=20170402074124",
+                "year": "Third year",
+                "birthday": "July 22",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "154 cm",
+                "favoritefood": "Sweets",
+                "dislikedfood": "Spicy food",
+                "charmpoint": "Her light skin"
+            },
+            {
+                "name": "Toujo Nozomi",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/1/14/Love_Live%21_infobox_-_Toujou_Nozomi.png/revision/latest?cb=20170402074122",
+                "year": "Third year",
+                "birthday": "June 9",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "159 cm",
+                "favoritefood": "Yakiniku",
+                "dislikedfood": "Caramel",
+                "charmpoint": "Her bust"
+            },
+            {
+                "name": "Ayase Eli",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/2b/Love_Live%21_infobox_-_Ayase_Eli.png/revision/latest?cb=20170402074117",
+                "year": "Third year",
+                "birthday": "October 21",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "162 cm",
+                "favoritefood": "Chocolate",
+                "dislikedfood": "Pickled plums, Nori",
+                "charmpoint": "Her sharp style"
+            }
+        ],
+        "aquors": [
+            {
+                "name": "Takami Chika",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/9/94/Sunshine%21%21_infobox_-_Takami_Chika.png/revision/latest?cb=20170402074002",
+                "year": "Second year",
+                "birthday": "August 1",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "157 cm",
+                "favoritefood": "Mikan",
+                "dislikedfood": "Coffee, Shiokara",
+                "charmpoint": "Her three braids next to her ears, her bright smile and self-confidence"
+            },
+            {
+                "name": "Watanabe You",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/0/0e/Sunshine%21%21_infobox_-_Watanabe_You.png/revision/latest?cb=20170402074007",
+                "year": "Second year",
+                "birthday": "April 17",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "157 cm",
+                "favoritefood": "Salisbury steak, Mikan",
+                "dislikedfood": "Sashimi Anything too dry"
+            },
+            {
+                "name": "Sakurauchi Riko",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/77/Sunshine%21%21_infobox_-_Sakurauchi_Riko.png/revision/latest?cb=20170402074004",
+                "year": "Second year",
+                "birthday": "September 19",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "160 cm",
+                "favoritefood": "Hard-boiled Eggs, Sandwiches",
+                "dislikedfood": "Green Pepper"
+            },
+            {
+                "name": "Tsushima Yoshiko",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/39/Sunshine%21%21_infobox_-_Tsushima_Yoshiko.png/revision/latest?cb=20170402074008",
+                "year": "First year",
+                "birthday": "July 13",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "156 cm",
+                "favoritefood": "Chocolate, Strawberry",
+                "dislikedfood": "Mikan"
+            },
+            {
+                "name": "Kunikida Hanamaru",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/c/c1/Sunshine%21%21_infobox_-_Kunikida_Hanamaru.png/revision/latest?cb=20170402074009",
+                "year": "First year",
+                "birthday": "March 4",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "152 cm",
+                "favoritefood": "Mikan Red, bean paste",
+                "dislikedfood": "Milk Noodles"
+            },
+            {
+                "name": "Kurosawa Ruby",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/21/Sunshine%21%21_infobox_-_Kurosawa_Ruby.png/revision/latest?cb=20170402073946",
+                "year": "First year",
+                "birthday": "September 21",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "154 cm",
+                "favoritefood": "French Fries, Sweet Potatoes",
+                "dislikedfood": "Wasabi"
+            },
+            {
+                "name": "Kurosawa Dia",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/6/6c/Sunshine%21%21_infobox_-_Kurosawa_Dia.png/revision/latest?cb=20170402074006",
+                "year": "Third year",
+                "birthday": "January 1",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "162 cm",
+                "favoritefood": "Matcha flavored candy, Pudding",
+                "dislikedfood": "Matcha flavored candy, Pudding"
+            },
+            {
+                "name": "Matsuura Kanan",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/5/56/Sunshine%21%21_infobox_-_Matsuura_Kanan.png/revision/latest?cb=20170402074005",
+                "year": "Third year",
+                "birthday": "February 10",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "162 cm",
+                "favoritefood": "Sazae, Wakame",
+                "dislikedfood": "Umeboshi"
+            },
+            {
+                "name": "Ohara Mari",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/1/14/Sunshine%21%21_infobox_-_Ohara_Mari.png/revision/latest?cb=20170402073947",
+                "year": "Third year",
+                "birthday": "June 13",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "163 cm",
+                "favoritefood": "Coffee, Lemons",
+                "dislikedfood": "Natto, Kimchi"
+            }
+        ],
+        "nijigasaki": [
+            {
+                "name": "Uehara Ayumu",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/d/d3/PDP_Profile_Image_-_Ayumu_Uehara.png/revision/latest/scale-to-width-down/250?cb=20181005192106",
+                "year": "Second year",
+                "birthday": "March 1",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "158 cm"
+            },
+            {
+                "name": "Miyashita Ai",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/8/87/PDP_Profile_Image_-_Ai_Miyashita.png/revision/latest/scale-to-width-down/250?cb=20181005192432",
+                "year": "Second year",
+                "birthday": "May 30",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "163 cm"
+            },
+            {
+                "name": "Yuuki Setsuna",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/a/ab/PDP_Profile_Image_-_Setsuna_Yuki.png/revision/latest/scale-to-width-down/250?cb=20181005192611",
+                "year": "Second year",
+                "birthday": "August 8",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "154 cm"
+            },
+            {
+                "name": "Nakasu Kasumi",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/f/f6/PDP_Profile_Image_-_Kasumi_Nakasu.png/revision/latest/scale-to-width-down/250?cb=20181005192204",
+                "year": "First year",
+                "birthday": "January 23",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "155 cm"
+            },
+            {
+                "name": "Tennouji Rina",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/8/8b/PDP_Profile_Image_-_Rina_Tennoji.png/revision/latest/scale-to-width-down/250?cb=20181005192841",
+                "year": "First year",
+                "birthday": "November 13",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "149 cm"
+            },
+            {
+                "name": "Ousaka Shizuku",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/5/59/PDP_Profile_Image_-_Shizuku_Osaka.png/revision/latest/scale-to-width-down/250?cb=20181005192327",
+                "year": "First year",
+                "birthday": "April 13",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "157 cm"
+            },
+            {
+                "name": "Ema Verde",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/74/PDP_Profile_Image_-_Emma_Verde.png/revision/latest/scale-to-width-down/281?cb=20181005192752",
+                "year": "Third year",
+                "birthday": "February 5",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "166 cm"
+            },
+            {
+                "name": "Konoe Kanata",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/3a/PDP_Profile_Image_-_Kanata_Konoe.png/revision/latest/scale-to-width-down/250?cb=20181005192515",
+                "year": "Third year",
+                "birthday": "December 16",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "158 cm"
+            },
+            {
+                "name": "Asaka Karin",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/a/a8/PDP_Profile_Image_-_Karin_Asaka.png/revision/latest/scale-to-width-down/250?cb=20180207192358",
+                "year": "Third year",
+                "birthday": "June 29",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "167 cm"
+            }
+        ],
+        "liella": [
+            {
+                "name": "Shibuya Kanon",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/7/7e/Kanon_Shibuya.png/revision/latest/scale-to-width-down/255?cb=20200714184732",
+                "year": "First year",
+                "birthday": "May 1",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "159 cm",
+                "favoritefood": "Baked Apples, Tomatoes, Hamburger Steak, Café Au Lait"
+            },
+            {
+                "name": "Tang Keke",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/7/74/Tang_Keke.png/revision/latest/scale-to-width-down/255?cb=20200714184733",
+                "year": "First year",
+                "birthday": "July 17",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "159 cm",
+                "favoritefood": "Napolitan, Choco Banana, Milk Tea"
+            },
+            {
+                "name": "Arashi Chisato",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/c/c2/Chisato_Arashi.png/revision/latest/scale-to-width-down/255?cb=20200714184731",
+                "year": "First year",
+                "birthday": "February 25",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "155 cm",
+                "favoritefood": "Takoyaki, Peaches, Cola",
+                "dislikedfood": "Bell Peppers"
+            },
+            {
+                "name": "Heanna Sumire",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/7/71/Sumire_Heanna.png/revision/latest/scale-to-width-down/255?cb=20200714184733",
+                "year": "First year",
+                "birthday": "September 28",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "161 cm",
+                "favoritefood": "Tamago Kake Gohan, Green Tea, Melon"
+            },
+            {
+                "name": "Hazuki Ren",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/8/81/Ren_Hazuki.png/revision/latest/scale-to-width-down/255?cb=20200714184732",
+                "year": "First year",
+                "birthday": "November 24",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "163 cm",
+                "favoritefood": "Consomme Soup, Strawberries, Darjeeling Tea"
+            }
+        ]
+    },
+    "support": {
+        "nijigasaki-support": [
+            {
+                "name": "Takasaki Yu",
+                "picture": "https://vignette.wikia.nocookie.net/love-live/images/d/d4/Yu_Anime.png/revision/latest/scale-to-width-down/203?cb=20200924155944",
+                "year": "Second year",
+                "gender": "Female",
+                "height": "156 cm"
+            }
+        ]
+    }
+}
