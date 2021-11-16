@@ -28,6 +28,21 @@ class IdolColors {
   static Color get ruby => const Color(0xffFB75E4);
 
   // Nijigasaki
+  static Color get ayumu => const Color(0xffEE879D);
+  static Color get kasumi => const Color(0xffFFE41C);
+  static Color get shizuku => const Color(0xff73C9F3);
+  static Color get karin => const Color(0xff565EA9);
+  static Color get ai => const Color(0xffF18F3D);
+  static Color get kanata => const Color(0xffB44E8F);
+  static Color get setsuna => const Color(0xffE94C53);
+  static Color get emma => const Color(0xff8EC225);
+  static Color get rina => const Color(0xff9AA3AA);
+  static Color get shioriko => const Color(0xff39B184);
 
   // Liella
+  static Color get kanon => const Color(0xffFF7E24);
+  static Color get keke => const Color(0xffA0FFF6);
+  static Color get chisato => const Color(0xffFF6E92);
+  static Color get sumire => const Color(0xff74F467);
+  static Color get ren => const Color(0xff0100A0);
 }
