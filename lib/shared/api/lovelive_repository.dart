@@ -15,7 +15,7 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
 
   @override
   Future<LoveLiveAPI> loadLoveLiveAPI() async {
-    String loveliveJsonString = await _loadLLJson();
+    String? loveliveJsonString = await _loadLLJson();
 
     final response = json.decode(loveliveJsonString);
 
