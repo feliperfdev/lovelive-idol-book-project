@@ -12,7 +12,7 @@ class MusesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FutureBuilder<List<Muses?>>(
-          future: controller.fetchMuses(),
+          future: controller.listMuses(),
           builder: (_, AsyncSnapshot<List<Muses?>> snapshot) {
             if (snapshot.hasData) {
               return ListView.builder(

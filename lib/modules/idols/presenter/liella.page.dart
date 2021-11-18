@@ -12,7 +12,7 @@ class LiellaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FutureBuilder<List<Liella?>>(
-          future: controller.fetchLiella(),
+          future: controller.listLiella(),
           builder: (_, AsyncSnapshot<List<Liella?>> snapshot) {
             if (snapshot.hasData) {
               return ListView.builder(

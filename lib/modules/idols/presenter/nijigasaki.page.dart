@@ -12,7 +12,7 @@ class NijigasakiPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FutureBuilder<List<Nijigasaki?>>(
-          future: controller.fetchNijigasaki(),
+          future: controller.listNijigasaki(),
           builder: (_, AsyncSnapshot<List<Nijigasaki?>> snapshot) {
             if (snapshot.hasData) {
               return ListView.builder(

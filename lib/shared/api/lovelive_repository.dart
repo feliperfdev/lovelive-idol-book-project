@@ -5,12 +5,11 @@ import 'dart:convert';
 import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
 
 abstract class LoveLiveRepository {
-  Future<LoveLiveAPI> loadLoveLiveAPI();
-  Future<List<Muses?>> loadMuses();
-  Future<List<Aquors?>> loadAquors();
-  Future<List<Nijigasaki?>> loadNijigasaki();
-  Future<List<Liella?>> loadLiella();
-  Future<Support?> loadSupport();
+  Future<List<Muses?>> listMuses();
+  Future<List<Aquors?>> listAquors();
+  Future<List<Nijigasaki?>> listNijigasaki();
+  Future<List<Liella?>> listLiella();
+  Future<Support?> listSupport();
 }
 
 class LoveLiveRepositoryImpl implements LoveLiveRepository {
@@ -28,66 +27,55 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
   }
 
   @override
-  Future<LoveLiveAPI> loadLoveLiveAPI() async {
-    final api = await _getResponseData();
+  Future<List<Aquors?>> listAquors() async {
+    final data = await _getResponseData();
 
     try {
-      return api;
+      return data.idols!.aquors!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }
   }
 
   @override
-  Future<List<Aquors?>> loadAquors() async {
-    final api = await _getResponseData();
+  Future<List<Liella?>> listLiella() async {
+    final data = await _getResponseData();
 
     try {
-      return api.idols!.aquors!;
+      return data.idols!.liella!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }
   }
 
   @override
-  Future<List<Liella?>> loadLiella() async {
-    final api = await _getResponseData();
+  Future<List<Muses?>> listMuses() async {
+    final data = await _getResponseData();
 
     try {
-      return api.idols!.liella!;
+      return data.idols!.muses!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }
   }
 
   @override
-  Future<List<Muses?>> loadMuses() async {
-    final api = await _getResponseData();
+  Future<List<Nijigasaki?>> listNijigasaki() async {
+    final data = await _getResponseData();
 
     try {
-      return api.idols!.muses!;
+      return data.idols!.nijigasaki!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }
   }
 
   @override
-  Future<List<Nijigasaki?>> loadNijigasaki() async {
-    final api = await _getResponseData();
+  Future<Support?> listSupport() async {
+    final data = await _getResponseData();
 
     try {
-      return api.idols!.nijigasaki!;
-    } catch (e) {
-      throw "Impossível carregar dados da API!";
-    }
-  }
-
-  @override
-  Future<Support?> loadSupport() async {
-    final api = await _getResponseData();
-
-    try {
-      return api.support!;
+      return data.support!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }

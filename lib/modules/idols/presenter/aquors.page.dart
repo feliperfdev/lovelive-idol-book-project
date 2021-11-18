@@ -12,7 +12,7 @@ class AquorsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: FutureBuilder<List<Aquors?>>(
-          future: controller.fetchAquors(),
+          future: controller.listAquors(),
           builder: (_, AsyncSnapshot<List<Aquors?>> snapshot) {
             if (snapshot.hasData) {
               return ListView.builder(
