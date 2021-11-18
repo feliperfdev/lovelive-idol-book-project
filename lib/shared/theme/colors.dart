@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static Color get bgColor => const Color(0xffFF01A9);
+  static Color get bgColor => const Color(0xffFF0094);
 }
 
 class IdolColors {

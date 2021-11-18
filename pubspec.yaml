@@ -30,8 +30,14 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  
+  # Dependency injection, routes and modular structure
   flutter_modular: ^4.2.0
+
+  # State management
   flutter_mobx: ^2.0.0
+
+  # internationalization and localization facilities
   intl: ^0.17.0
 
 dev_dependencies:
@@ -44,6 +50,8 @@ dev_dependencies:
   flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
+  
+  # File generators
   build_runner: ^2.0.5
   mobx_codegen: ^2.0.1+3
 

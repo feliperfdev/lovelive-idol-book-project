@@ -17,8 +17,8 @@ abstract class _IdolsControllerBase with Store {
 
   /// [Fetch] data from local {database api}
   ///
-  /// Specific data returned to ---> a list of [Aquors] class object
-  Future<List<Aquors?>> listAquors() => _loveLiveRepository.listAquors();
+  /// Specific data returned to ---> a list of [Aqours] class object
+  Future<List<Aqours?>> listAqours() => _loveLiveRepository.listAqours();
 
   /// [Fetch] data from local {database api}
   ///
