@@ -13,26 +13,26 @@ abstract class _IdolsControllerBase with Store {
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Muses] class object
-  Future<List<Muses?>> fetchMuses() => _loveLiveRepository.loadMuses();
+  Future<List<Muses?>> listMuses() => _loveLiveRepository.listMuses();
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Aquors] class object
-  Future<List<Aquors?>> fetchAquors() => _loveLiveRepository.loadAquors();
+  Future<List<Aquors?>> listAquors() => _loveLiveRepository.listAquors();
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Nijigasaki] class object
-  Future<List<Nijigasaki?>> fetchNijigasaki() =>
-      _loveLiveRepository.loadNijigasaki();
+  Future<List<Nijigasaki?>> listNijigasaki() =>
+      _loveLiveRepository.listNijigasaki();
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Liella] class object
-  Future<List<Liella?>> fetchLiella() => _loveLiveRepository.loadLiella();
+  Future<List<Liella?>> listLiella() => _loveLiveRepository.listLiella();
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> an object of [Support]
-  Future<Support?> fetchSupport() => _loveLiveRepository.loadSupport();
+  Future<Support?> getSupport() => _loveLiveRepository.getSupport();
 }
