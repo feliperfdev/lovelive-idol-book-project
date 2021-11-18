@@ -13,11 +13,11 @@ class LoveLiveAPI {
 
 class Idols {
   List<Muses?>? muses;
-  List<Aquors?>? aquors;
+  List<Aqours?>? aqours;
   List<Nijigasaki?>? nijigasaki;
   List<Liella?>? liella;
 
-  Idols({this.muses, this.aquors, this.nijigasaki, this.liella});
+  Idols({this.muses, this.aqours, this.nijigasaki, this.liella});
 
   Idols.fromJson(Map<String, dynamic> json) {
     if (json['muses'] != null) {
@@ -26,10 +26,10 @@ class Idols {
         muses!.add(Muses.fromJson(v));
       });
     }
-    if (json['aquors'] != null) {
-      aquors = <Aquors>[];
-      json['aquors'].forEach((v) {
-        aquors!.add(Aquors.fromJson(v));
+    if (json['aqours'] != null) {
+      aqours = <Aqours>[];
+      json['aqours'].forEach((v) {
+        aqours!.add(Aqours.fromJson(v));
       });
     }
     if (json['nijigasaki'] != null) {
@@ -49,6 +49,7 @@ class Idols {
 
 class Muses {
   String? name;
+  String? description;
   String? picture;
   String? year;
   String? birthday;
@@ -61,6 +62,7 @@ class Muses {
 
   Muses(
       {this.name,
+      this.description,
       this.picture,
       this.year,
       this.birthday,
@@ -73,6 +75,7 @@ class Muses {
 
   Muses.fromJson(Map<String, dynamic> json) {
     name = json['name'];
+    description = json['description'];
     picture = json['picture'];
     year = json['year'];
     birthday = json['birthday'];
@@ -85,8 +88,9 @@ class Muses {
   }
 }
 
-class Aquors {
+class Aqours {
   String? name;
+  String? description;
   String? picture;
   String? year;
   String? birthday;
@@ -97,8 +101,9 @@ class Aquors {
   String? dislikedfood;
   String? charmpoint;
 
-  Aquors(
+  Aqours(
       {this.name,
+      this.description,
       this.picture,
       this.year,
       this.birthday,
@@ -109,8 +114,9 @@ class Aquors {
       this.dislikedfood,
       this.charmpoint});
 
-  Aquors.fromJson(Map<String, dynamic> json) {
+  Aqours.fromJson(Map<String, dynamic> json) {
     name = json['name'];
+    description = json['description'];
     picture = json['picture'];
     year = json['year'];
     birthday = json['birthday'];
@@ -125,6 +131,7 @@ class Aquors {
 
 class Nijigasaki {
   String? name;
+  String? description;
   String? picture;
   String? year;
   String? birthday;
@@ -134,6 +141,7 @@ class Nijigasaki {
 
   Nijigasaki(
       {this.name,
+      this.description,
       this.picture,
       this.year,
       this.birthday,
@@ -143,6 +151,7 @@ class Nijigasaki {
 
   Nijigasaki.fromJson(Map<String, dynamic> json) {
     name = json['name'];
+    description = json['description'];
     picture = json['picture'];
     year = json['year'];
     birthday = json['birthday'];
@@ -154,6 +163,7 @@ class Nijigasaki {
 
 class Liella {
   String? name;
+  String? description;
   String? picture;
   String? year;
   String? birthday;
@@ -165,6 +175,7 @@ class Liella {
 
   Liella(
       {this.name,
+      this.description,
       this.picture,
       this.year,
       this.birthday,
@@ -176,6 +187,7 @@ class Liella {
 
   Liella.fromJson(Map<String, dynamic> json) {
     name = json['name'];
+    description = json['description'];
     picture = json['picture'];
     year = json['year'];
     birthday = json['birthday'];
@@ -204,16 +216,23 @@ class Support {
 
 class NijigasakiSupport {
   String? name;
+  String? description;
   String? picture;
   String? year;
   String? gender;
   String? height;
 
   NijigasakiSupport(
-      {this.name, this.picture, this.year, this.gender, this.height});
+      {this.name,
+      this.description,
+      this.picture,
+      this.year,
+      this.gender,
+      this.height});
 
   NijigasakiSupport.fromJson(Map<String, dynamic> json) {
     name = json['name'];
+    description = json['description'];
     picture = json['picture'];
     year = json['year'];
     gender = json['gender'];

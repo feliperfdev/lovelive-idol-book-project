@@ -6,7 +6,7 @@ import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
 
 abstract class LoveLiveRepository {
   Future<List<Muses?>> listMuses();
-  Future<List<Aquors?>> listAquors();
+  Future<List<Aqours?>> listAqours();
   Future<List<Nijigasaki?>> listNijigasaki();
   Future<List<Liella?>> listLiella();
   Future<Support?> getSupport();
@@ -36,13 +36,13 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     return api;
   }
 
-  /// Return a [List] of object class [Aquors]
+  /// Return a [List] of object class [Aqours]
   @override
-  Future<List<Aquors?>> listAquors() async {
+  Future<List<Aqours?>> listAqours() async {
     final data = await _getResponseData();
 
     try {
-      return data.idols!.aquors!;
+      return data.idols!.aqours!;
     } catch (e) {
       throw "Impossível carregar dados da API!";
     }
