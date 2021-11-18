@@ -34,5 +34,5 @@ abstract class _IdolsControllerBase with Store {
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> an object of [Support]
-  Future<Support?> listSupport() => _loveLiveRepository.listSupport();
+  Future<Support?> getSupport() => _loveLiveRepository.getSupport();
 }

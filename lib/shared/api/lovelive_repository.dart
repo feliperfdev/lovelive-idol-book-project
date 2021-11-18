@@ -9,14 +9,24 @@ abstract class LoveLiveRepository {
   Future<List<Aquors?>> listAquors();
   Future<List<Nijigasaki?>> listNijigasaki();
   Future<List<Liella?>> listLiella();
-  Future<Support?> listSupport();
+  Future<Support?> getSupport();
 }
 
 class LoveLiveRepositoryImpl implements LoveLiveRepository {
+  /// Acess the ``json`` database file
+  ///
+  /// Return the whole file as [String]
   Future<String> _loadLLJson() async {
     return await rootBundle.loadString('lib/database/lovelive.json');
   }
 
+  /// Get the whole json data as string and store it in a variable
+  ///
+  /// [Decode] json as string to a [Json object]
+  ///
+  /// Finally, from [LoveLiveAPI] class uses ``.fromJson`` method
+  /// to transform [Json Object] to (respective) API object class
+  ///
   Future<LoveLiveAPI> _getResponseData() async {
     String? loveliveJsonString = await _loadLLJson();
 
@@ -26,6 +36,7 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     return api;
   }
 
+  /// Return a [List] of object class [Aquors]
   @override
   Future<List<Aquors?>> listAquors() async {
     final data = await _getResponseData();
@@ -37,6 +48,7 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     }
   }
 
+  /// Return a [List] of object class [Liella]
   @override
   Future<List<Liella?>> listLiella() async {
     final data = await _getResponseData();
@@ -48,6 +60,7 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     }
   }
 
+  /// Return a [List] of object class [Muses]
   @override
   Future<List<Muses?>> listMuses() async {
     final data = await _getResponseData();
@@ -59,6 +72,7 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     }
   }
 
+  /// Return a [List] of object class [Nijigasaki]
   @override
   Future<List<Nijigasaki?>> listNijigasaki() async {
     final data = await _getResponseData();
@@ -70,8 +84,9 @@ class LoveLiveRepositoryImpl implements LoveLiveRepository {
     }
   }
 
+  /// Return an object class [Support]
   @override
-  Future<Support?> listSupport() async {
+  Future<Support?> getSupport() async {
     final data = await _getResponseData();
 
     try {

@@ -10,7 +10,7 @@ class AppWidget extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Love Live! School Idol Book!!',
-      theme: mainTheme(),
+      theme: mainTheme,
       initialRoute: '/',
     ).modular();
   }

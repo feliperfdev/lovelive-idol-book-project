@@ -19,7 +19,7 @@ class IdolsModule extends Module {
   List<ModularRoute> get routes => [
         ChildRoute('/', child: (_, args) => IdolsPage()),
         ChildRoute('/muses', child: (_, args) => MusesPage()),
-        ChildRoute('/aqors', child: (_, args) => AquorsPage()),
+        ChildRoute('/aquors', child: (_, args) => AquorsPage()),
         ChildRoute('/nijigasaki', child: (_, args) => NijigasakiPage()),
         ChildRoute('/liella', child: (_, args) => LiellaPage()),
       ];
