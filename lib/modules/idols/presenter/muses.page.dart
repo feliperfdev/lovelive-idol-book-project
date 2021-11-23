@@ -11,6 +11,7 @@ class MusesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: FutureBuilder<List<Muses?>>(
           future: controller.listMuses(),
           builder: (_, AsyncSnapshot<List<Muses?>> snapshot) {

@@ -11,6 +11,7 @@ class LiellaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: FutureBuilder<List<Liella?>>(
           future: controller.listLiella(),
           builder: (_, AsyncSnapshot<List<Liella?>> snapshot) {
