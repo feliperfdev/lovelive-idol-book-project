@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          _background('assets/sky_bg.png'),
+          _background('assets/images/sky_bg.png'),
           Column(
             children: [
               const SizedBox(height: 30),
@@ -20,7 +20,7 @@ class HomePage extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.contain,
-                    image: Image.asset('assets/logo.png').image,
+                    image: Image.asset('assets/images/logo.png').image,
                   ),
                 ),
               ),
@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.contain,
-                    image: Image.asset('assets/muses.png').image,
+                    image: Image.asset('assets/images/muses.png').image,
                   ),
                 ),
               ),

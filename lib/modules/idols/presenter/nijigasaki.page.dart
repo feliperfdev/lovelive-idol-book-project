@@ -11,6 +11,7 @@ class NijigasakiPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: FutureBuilder<List<Nijigasaki?>>(
           future: controller.listNijigasaki(),
           builder: (_, AsyncSnapshot<List<Nijigasaki?>> snapshot) {

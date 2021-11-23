@@ -11,6 +11,7 @@ class AqoursPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: FutureBuilder<List<Aqours?>>(
           future: controller.listAqours(),
           builder: (_, AsyncSnapshot<List<Aqours?>> snapshot) {
