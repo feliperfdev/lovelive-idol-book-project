@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
+import 'package:lovelive_ibp/modules/idols/presenter/widgets/group_selector_card.dart';
 import 'package:lovelive_ibp/shared/theme/idols_img.dart';
 
 class IdolsPage extends StatelessWidget {
@@ -9,53 +9,29 @@ class IdolsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('IDOLS SELECTOR'),
+        title: const Text(
+          'IDOLS SELECTOR',
+          style: TextStyle(fontFamily: 'Cascadia'),
+        ),
       ),
       body: ListView(
         physics: const BouncingScrollPhysics(),
         itemExtent: 240,
         children: [
-          Flexible(
-            child: GestureDetector(
-              onTap: () async {
-                await Modular.to.pushNamed('/idols/muses');
-              },
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: musesGroup!.image,
-                  ),
-                ),
-              ),
-            ),
+          GroupCard(
+            path: 'muses',
+            group: 'Muses',
+            image: musesGroup,
           ),
-          Flexible(
-            child: GestureDetector(
-              onTap: () async {
-                await Modular.to.pushNamed('/idols/aqours');
-              },
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: aquorsGroup!.image,
-                  ),
-                ),
-              ),
-            ),
+          GroupCard(
+            path: 'aqours',
+            group: 'Aqours',
+            image: aquorsGroup,
           ),
-          Flexible(
-            child: GestureDetector(
-              onTap: () async {
-                await Modular.to.pushNamed('/idols/nijigasaki');
-              },
-              child: Container(
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: nijigasakiGroup!.image,
-                  ),
-                ),
-              ),
-            ),
+          GroupCard(
+            path: 'nijigasaki',
+            group: 'Nijigasaki',
+            image: nijigasakiGroup,
           ),
         ],
       ),
