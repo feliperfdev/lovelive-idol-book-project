@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppColors {
   static Color get bgColor => const Color(0xffFF0094);
+  static Color get cardInfoColor => const Color(0xFFFF00DD);
 }
 
 class IdolColors {

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:lovelive_ibp/modules/idols/presenter/controllers/idols_controller.dart';
+import 'package:lovelive_ibp/modules/idols/presenter/widgets/idol_card.dart';
 import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
+import 'package:lovelive_ibp/shared/theme/colors.dart';
 
 class MusesPage extends StatelessWidget {
   MusesPage({Key? key}) : super(key: key);
@@ -20,7 +22,8 @@ class MusesPage extends StatelessWidget {
                 itemCount: snapshot.data!.length,
                 itemBuilder: (_, index) {
                   final idol = snapshot.data![index];
-                  return Text(idol!.name!);
+                  final color = IdolColors.musesColor[index];
+                  return IdolCard(idol: idol, color: color);
                 },
               );
             } else {
