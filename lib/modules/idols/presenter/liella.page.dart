@@ -6,10 +6,32 @@ import 'package:lovelive_ibp/shared/theme/colors.dart';
 
 import 'widgets/idol_card.dart';
 
-class LiellaPage extends StatelessWidget {
-  LiellaPage({Key? key}) : super(key: key);
+class LiellaPage extends StatefulWidget {
+  const LiellaPage({Key? key}) : super(key: key);
 
+  @override
+  State<LiellaPage> createState() => _LiellaPageState();
+}
+
+class _LiellaPageState extends State<LiellaPage> {
   final controller = Modular.get<IdolsController>();
+
+  int _currentPage = 0;
+
+  final _pageController = PageController(viewportFraction: 0.8);
+
+  @override
+  void initState() {
+    super.initState();
+    _pageController.addListener(() {
+      int next = _pageController.page!.round();
+      if (_currentPage != next) {
+        setState(() {
+          _currentPage = next;
+        });
+      }
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -19,12 +41,13 @@ class LiellaPage extends StatelessWidget {
           future: controller.listLiella(),
           builder: (_, AsyncSnapshot<List<Liella?>> snapshot) {
             if (snapshot.hasData) {
-              return ListView.builder(
+              return PageView.builder(
+                controller: _pageController,
                 itemCount: snapshot.data!.length,
                 itemBuilder: (_, index) {
                   final idol = snapshot.data![index];
                   final color = IdolColors.liellaColor[index];
-                  return IdolCard(idol: idol, color: color).liella(context)!;
+                  return IdolCard(idol: idol, color: color).liella()!;
                 },
               );
             } else {

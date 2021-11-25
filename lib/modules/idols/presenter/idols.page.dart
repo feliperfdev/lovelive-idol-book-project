@@ -33,6 +33,11 @@ class IdolsPage extends StatelessWidget {
             group: 'Nijigasaki',
             image: nijigasakiGroup,
           ),
+          GroupCard(
+            path: 'liella',
+            group: 'Liella',
+            imageRow: liellaGroup,
+          ),
         ],
       ),
     );
