@@ -1,6 +1,14 @@
-# lovelive_ibp
+# Love Live! Idol Book Project!!
 
-A new Flutter project.
+<p align='center'>
+    <img src='assets/images/logo.png' height=100>
+<p/>
+
+Projeto de aplicativo feito em Flutter baseado na franquia `Love Live! School Idol Project`.
+
+O intuíto do projeto é apenas ser um "livro" contendo informações das personagens da franquia.
+
+Projeito feito unicamente para fins de estudos relacionados à tecnologia `Flutter` e a aplicação de alguns `packages`.
 
 ## Getting Started
 

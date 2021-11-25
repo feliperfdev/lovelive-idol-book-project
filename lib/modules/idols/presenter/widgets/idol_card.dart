@@ -3,8 +3,9 @@ import 'package:lovelive_ibp/shared/theme/idol_text.dart';
 import 'package:lovelive_ibp/shared/theme/idols_img.dart';
 
 abstract class IdolCardAbs {
-  Widget? nijigasaki(BuildContext? context);
-  Widget? liella(BuildContext? context);
+  Widget? aqours();
+  Widget? nijigasaki();
+  Widget? liella();
 }
 
 class IdolCard extends StatelessWidget implements IdolCardAbs {
@@ -15,7 +16,7 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
+      margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(12),
@@ -64,8 +65,9 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
                         fontWeight: FontWeight.w700),
                   ],
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                const SizedBox(height: 6),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     IdolText('Birthday: ${idol!.birthday}',
                         fontWeight: FontWeight.w700),
@@ -107,9 +109,9 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
   }
 
   @override
-  Widget? nijigasaki(BuildContext? context) {
+  Widget? nijigasaki() {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
+      margin: const EdgeInsets.symmetric(vertical: 40, horizontal: 10),
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(12),
@@ -122,6 +124,7 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
         ],
       ),
       child: Column(
+        mainAxisSize: MainAxisSize.min,
         children: [
           IdolText(idol!.name, fontSize: 20),
           const SizedBox(height: 12),
@@ -153,18 +156,19 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     IdolText('Gender: ${idol!.gender}',
-                        fontWeight: FontWeight.w700),
+                        fontWeight: FontWeight.w700, fontSize: 16),
                     IdolText('Bloodtype: ${idol!.bloodtype}',
-                        fontWeight: FontWeight.w700),
+                        fontWeight: FontWeight.w700, fontSize: 16),
                   ],
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                const SizedBox(height: 6),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     IdolText('Birthday: ${idol!.birthday}',
-                        fontWeight: FontWeight.w700),
+                        fontWeight: FontWeight.w700, fontSize: 16),
                     IdolText('Height: ${idol!.height}',
-                        fontWeight: FontWeight.w700),
+                        fontWeight: FontWeight.w700, fontSize: 16),
                   ],
                 ),
                 const Divider(
@@ -173,7 +177,8 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
                   indent: 10,
                   endIndent: 10,
                 ),
-                IdolText('${idol!.description}', fontWeight: FontWeight.w700),
+                IdolText('${idol!.description}',
+                    fontWeight: FontWeight.w700, fontSize: 16),
               ],
             ),
           ),
@@ -183,9 +188,95 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
   }
 
   @override
-  Widget? liella(BuildContext? context) {
+  Widget? liella() {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 20),
+      margin: const EdgeInsets.symmetric(vertical: 8, horizontal: 10),
+      decoration: BoxDecoration(
+        color: color,
+        borderRadius: BorderRadius.circular(12),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.pinkAccent[700]!,
+            offset: const Offset(2, 2),
+            blurRadius: .8,
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          IdolText(idol!.name, fontSize: 20),
+          const SizedBox(height: 12),
+          Container(
+            height: 180,
+            decoration: BoxDecoration(
+              image: DecorationImage(
+                image: idolImage(idol!.picture)!.image,
+              ),
+            ),
+          ),
+          const SizedBox(height: 12),
+          Container(
+            padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 10),
+            decoration: BoxDecoration(
+              color: color,
+              borderRadius: BorderRadius.circular(12),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.grey[400]!,
+                  offset: const Offset(0, -2),
+                  blurRadius: .8,
+                ),
+              ],
+            ),
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    IdolText('Gender: ${idol!.gender}',
+                        fontWeight: FontWeight.w700, fontSize: 16),
+                    IdolText('Bloodtype: ${idol!.bloodtype}',
+                        fontWeight: FontWeight.w700, fontSize: 16),
+                  ],
+                ),
+                const SizedBox(height: 6),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    IdolText('Birthday: ${idol!.birthday}',
+                        fontWeight: FontWeight.w700, fontSize: 16),
+                    IdolText('Height: ${idol!.height}',
+                        fontWeight: FontWeight.w700, fontSize: 16),
+                  ],
+                ),
+                const Divider(
+                  thickness: 1,
+                  color: Colors.white,
+                  indent: 10,
+                  endIndent: 10,
+                ),
+                IdolText('Favorite food: ${idol!.favoritefood}',
+                    fontWeight: FontWeight.w700, fontSize: 16),
+                const Divider(
+                  thickness: 1,
+                  color: Colors.white,
+                  indent: 10,
+                  endIndent: 10,
+                ),
+                IdolText('${idol!.description}',
+                    fontWeight: FontWeight.w700, fontSize: 16),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  @override
+  Widget? aqours() {
+    return Container(
+      margin: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
       decoration: BoxDecoration(
         color: color,
         borderRadius: BorderRadius.circular(12),
@@ -234,8 +325,9 @@ class IdolCard extends StatelessWidget implements IdolCardAbs {
                         fontWeight: FontWeight.w700),
                   ],
                 ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                const SizedBox(height: 6),
+                Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     IdolText('Birthday: ${idol!.birthday}',
                         fontWeight: FontWeight.w700),
