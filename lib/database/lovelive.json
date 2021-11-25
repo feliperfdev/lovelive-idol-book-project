@@ -3,6 +3,7 @@
         "muses": [
             {
                 "name": "Kousaka Honoka",
+                "description": "Honoka Kosaka is the primary protagonist of Love Live!. She is a second year in Otonokizaka High School. Her image color is orange, though she is often represented with pink. She is also the leader of Printemps, a sub-unit under µ's and the leader and co-founder of the group itself. Her solo album is called Honnori Honokairo!",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/c/c6/Love_Live%21_infobox_-_Kousaka_Honoka.png/revision/latest?cb=20170402074116",
                 "year": "Second year",
                 "birthday": "August 3",
@@ -15,6 +16,7 @@
             },
             {
                 "name": "Minami Kotori",
+                "description": "Kotori Minami is one of the nine main characters in Love Live!. She is a second year in Otonokizaka High School. She is also known as 'Legendary Maid Minalinsky' while working in Akihabara. Her image color is gray, though she is also represented with green or white. She is a member of Printemps, a sub-unit under µ's and co-founder of the group itself. Her solo album is called Kotori, Lovin' You.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/b/bc/Love_Live%21_infobox_-_Minami_Kotori.png/revision/latest?cb=20170402074118",
                 "year": "Second year",
                 "birthday": "September 12",
@@ -27,6 +29,7 @@
             },
             {
                 "name": "Sonoda Umi",
+                "description": "Umi Sonoda is one of the nine main characters in Love Live!. She is a second year in Otonokizaka High School. Her image color is blue. She is the leader of lily white, a sub-unit under µ's and co-founder of the group itself. Her solo album is called Umiiro Shoujo ni Miserarete.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/36/Love_Live%21_infobox_-_Sonoda_Umi.png/revision/latest?cb=20170402074119",
                 "year": "Second year",
                 "birthday": "March 15",
@@ -39,6 +42,7 @@
             },
             {
                 "name": "Nishikino Maki",
+                "description": "Maki Nishikino is one of the nine main characters in Love Live!. She is a first year at Otonokizaka High School. Her image color is red. She is a member of BiBi, a sub-unit under µ's. She is also the vice-president of the Idol Research Club and the end of the movie, she was succeeded by Yukiho Kosaka and Alisa Ayase.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/24/Love_Live%21_infobox_-_Nishikino_Maki.png/revision/latest?cb=20170402074121",
                 "year": "First year",
                 "birthday": "April 19",
@@ -51,6 +55,7 @@
             },
             {
                 "name": "Hoshizora Rin",
+                "description": "Rin Hoshizora is one of the nine main characters in Love Live!. She is a first year in Otonokizaka High School. Her image color is yellow, but is also represented with lime-green or teal. She is a member of lily white, a sub-unit under µ's",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/38/Love_Live%21_infobox_-_Hoshizora_Rin.png/revision/latest?cb=20170402074119",
                 "year": "First year",
                 "birthday": "November 1",
@@ -63,6 +68,7 @@
             },
             {
                 "name": "Koizumi Hanayo",
+                "description": "Hanayo Koizumi is one of the nine main characters in Love Live!. She is a first year in Otonokizaka High School. Her image color is green, though she is also represented with teal and yellow. She is a member of Printemps, a sub-unit under µ's. She succeeded Nico Yazawa as the president of the Idol Research Club after the third years have graduated and at the end of the movie, was succeeded by Yukiho Kosaka and Alisa Ayase.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/70/Love_Live%21_infobox_-_Koizumi_Hanayo.png/revision/latest?cb=20170402074123",
                 "year": "First year",
                 "birthday": "January 17",
@@ -75,6 +81,7 @@
             },
             {
                 "name": "Yazawa Nico",
+                "description": "Nico Yazawa is one of the nine main characters in Love Live!. Despite her childlike stature, she is actually a third year in Otonokizaka High School. Her image color is pink. She is a member of BiBi, a sub-unit under μ's.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/39/Love_Live%21_infobox_-_Yazawa_Nico.png/revision/latest?cb=20170402074124",
                 "year": "Third year",
                 "birthday": "July 22",
@@ -87,6 +94,7 @@
             },
             {
                 "name": "Toujo Nozomi",
+                "description": "Nozomi Tojo is one of the nine main characters in Love Live!. She is a third year in Otonokizaka High School. Her image color is purple. She is a member of lily white, a sub-unit under μ's.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/1/14/Love_Live%21_infobox_-_Toujou_Nozomi.png/revision/latest?cb=20170402074122",
                 "year": "Third year",
                 "birthday": "June 9",
@@ -99,6 +107,7 @@
             },
             {
                 "name": "Ayase Eli",
+                "description": "Eli Ayase is one of the nine main characters in Love Live!. She is a third year in Otonokizaka High School. Her image color is ice-blue. She is the leader of BiBi, a sub-unit under μ's.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/2b/Love_Live%21_infobox_-_Ayase_Eli.png/revision/latest?cb=20170402074117",
                 "year": "Third year",
                 "birthday": "October 21",
@@ -110,9 +119,10 @@
                 "charmpoint": "Her sharp style"
             }
         ],
-        "aquors": [
+        "aqours": [
             {
                 "name": "Takami Chika",
+                "description": "Chika Takami is the primary protagonist of Love Live! Sunshine!!. She is a second year in Uranohoshi Girls' High School. Her image color is orange. She is a member of CYaRon!, a sub-unit under the reformed Aqours and the leader and co-founder of the group itself.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/9/94/Sunshine%21%21_infobox_-_Takami_Chika.png/revision/latest?cb=20170402074002",
                 "year": "Second year",
                 "birthday": "August 1",
@@ -125,6 +135,7 @@
             },
             {
                 "name": "Watanabe You",
+                "description": "You Watanabe is one of the nine main characters of Love Live! Sunshine!!. She is a second year at Uranohoshi Girls' High School. Her image color is light blue.[2] She is a member of CYaRon!, a sub-unit under the reformed Aqours and co-founder of the group itself.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/0/0e/Sunshine%21%21_infobox_-_Watanabe_You.png/revision/latest?cb=20170402074007",
                 "year": "Second year",
                 "birthday": "April 17",
@@ -136,6 +147,7 @@
             },
             {
                 "name": "Sakurauchi Riko",
+                "description": "Riko Sakurauchi is one of the nine main characters of Love Live! Sunshine!!. She is a second year in Uranohoshi Girls' High School. Her image color is cherry pink. She is a member of Guilty Kiss, a sub-unit under the reformed Aqours and co-founder of the group itself.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/77/Sunshine%21%21_infobox_-_Sakurauchi_Riko.png/revision/latest?cb=20170402074004",
                 "year": "Second year",
                 "birthday": "September 19",
@@ -147,6 +159,7 @@
             },
             {
                 "name": "Tsushima Yoshiko",
+                "description": "Yoshiko Tsushima, also known as Yohane, is one of the nine main characters of Love Live! Sunshine!!. She is a first year in Uranohoshi Girls' High School. Her image color is gray, but is often depicted as grayish-blue. She is a member of Guilty Kiss, a sub-unit under Aqours.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/39/Sunshine%21%21_infobox_-_Tsushima_Yoshiko.png/revision/latest?cb=20170402074008",
                 "year": "First year",
                 "birthday": "July 13",
@@ -158,6 +171,7 @@
             },
             {
                 "name": "Kunikida Hanamaru",
+                "description": "Hanamaru Kunikida is one of the nine main characters of Love Live! Sunshine!!. She is a first year in Uranohoshi Girls' High School. Her image color is yellow. She is a member of AZALEA, a sub-unit under Aqours.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/c/c1/Sunshine%21%21_infobox_-_Kunikida_Hanamaru.png/revision/latest?cb=20170402074009",
                 "year": "First year",
                 "birthday": "March 4",
@@ -169,6 +183,7 @@
             },
             {
                 "name": "Kurosawa Ruby",
+                "description": "Ruby Kurosawa is one of the nine main characters of Love Live! Sunshine!!. She is a first year in Uranohoshi Girls' High School. Her image color is pink. She is a member of CYaRon!, a sub-unit under the reformed Aqours.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/2/21/Sunshine%21%21_infobox_-_Kurosawa_Ruby.png/revision/latest?cb=20170402073946",
                 "year": "First year",
                 "birthday": "September 21",
@@ -180,6 +195,7 @@
             },
             {
                 "name": "Kurosawa Dia",
+                "description": "Dia Kurosawa is one of the nine main characters of Love Live! Sunshine!!. She is a third year in Uranohoshi Girls' High School. Her image color is red. She is a member of AZALEA, a sub-unit under Aqours and was the original co-founder of the group itself.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/6/6c/Sunshine%21%21_infobox_-_Kurosawa_Dia.png/revision/latest?cb=20170402074006",
                 "year": "Third year",
                 "birthday": "January 1",
@@ -191,6 +207,7 @@
             },
             {
                 "name": "Matsuura Kanan",
+                "description": "Kanan Matsuura is one of the nine main characters of Love Live! Sunshine!!. She is a third year in Uranohoshi Girls' High School. Her image color is emerald green. She is a member of AZALEA, a sub-unit under the reformed Aqours and was the leader and co-founder of the original group itself two years prior to the series before being succeeded by Chika Takami.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/5/56/Sunshine%21%21_infobox_-_Matsuura_Kanan.png/revision/latest?cb=20170402074005",
                 "year": "Third year",
                 "birthday": "February 10",
@@ -202,6 +219,7 @@
             },
             {
                 "name": "Ohara Mari",
+                "description": "Mari Ohara is one of the nine main characters of Love Live! Sunshine!!. She is a third year at Uranohoshi Girls' High School as well as the school's chairwoman. Her image color is violet. She is a member of Guilty Kiss, a sub-unit under Aqours and was the original co-founder of the group itself.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/1/14/Sunshine%21%21_infobox_-_Ohara_Mari.png/revision/latest?cb=20170402073947",
                 "year": "Third year",
                 "birthday": "June 13",
@@ -215,6 +233,7 @@
         "nijigasaki": [
             {
                 "name": "Uehara Ayumu",
+                "description": "Ayumu Uehara is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a second year at Nijigasaki High School. She is a member of A・ZU・NA, a unit under Nijigaki. Her image color is light pink.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/d/d3/PDP_Profile_Image_-_Ayumu_Uehara.png/revision/latest/scale-to-width-down/250?cb=20181005192106",
                 "year": "Second year",
                 "birthday": "March 1",
@@ -224,6 +243,7 @@
             },
             {
                 "name": "Miyashita Ai",
+                "description": "Ai Miyashita is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a second year at Nijigasaki High School. Her image color is ultra orange. She is a member of DiverDiva, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/8/87/PDP_Profile_Image_-_Ai_Miyashita.png/revision/latest/scale-to-width-down/250?cb=20181005192432",
                 "year": "Second year",
                 "birthday": "May 30",
@@ -233,6 +253,7 @@
             },
             {
                 "name": "Yuuki Setsuna",
+                "description": "Setsuna Yuki, whose real name is Nana Nakagawa, is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a second year at Nijigasaki High School. Her image color is scarlet red. She is a member of A・ZU・NA, a unit under Nijigaku, and was the original leader of the group prior to it falling apart.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/a/ab/PDP_Profile_Image_-_Setsuna_Yuki.png/revision/latest/scale-to-width-down/250?cb=20181005192611",
                 "year": "Second year",
                 "birthday": "August 8",
@@ -242,6 +263,7 @@
             },
             {
                 "name": "Nakasu Kasumi",
+                "description": "Kasumi Nakasu is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a first year at Nijigasaki High School. Her image color is pastel yellow. She is a member of QU4RTZ, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/f/f6/PDP_Profile_Image_-_Kasumi_Nakasu.png/revision/latest/scale-to-width-down/250?cb=20181005192204",
                 "year": "First year",
                 "birthday": "January 23",
@@ -251,6 +273,7 @@
             },
             {
                 "name": "Tennouji Rina",
+                "description": "Rina Tennoji is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a first year at Nijigasaki High School. Her image color is paper white. She is a member of QU4RTZ, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/8/8b/PDP_Profile_Image_-_Rina_Tennoji.png/revision/latest/scale-to-width-down/250?cb=20181005192841",
                 "year": "First year",
                 "birthday": "November 13",
@@ -260,6 +283,7 @@
             },
             {
                 "name": "Ousaka Shizuku",
+                "description": "Shizuku Osaka is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a first year at Nijigasaki High School. Her image color is light blue. She is a member of A・ZU・NA, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/5/59/PDP_Profile_Image_-_Shizuku_Osaka.png/revision/latest/scale-to-width-down/250?cb=20181005192327",
                 "year": "First year",
                 "birthday": "April 13",
@@ -268,7 +292,8 @@
                 "height": "157 cm"
             },
             {
-                "name": "Ema Verde",
+                "name": "Emma Verde",
+                "description": "Emma Verde is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a third year at Nijigasaki High School. Her image color is light green. She is a member of QU4RTZ, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/7/74/PDP_Profile_Image_-_Emma_Verde.png/revision/latest/scale-to-width-down/281?cb=20181005192752",
                 "year": "Third year",
                 "birthday": "February 5",
@@ -278,6 +303,7 @@
             },
             {
                 "name": "Konoe Kanata",
+                "description": "Kanata Konoe is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a third year at Nijigasaki High School. Her image color is violet. She is a member of QU4RTZ, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/3/3a/PDP_Profile_Image_-_Kanata_Konoe.png/revision/latest/scale-to-width-down/250?cb=20181005192515",
                 "year": "Third year",
                 "birthday": "December 16",
@@ -287,17 +313,49 @@
             },
             {
                 "name": "Asaka Karin",
+                "description": "Karin Asaka is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a third year at Nijigasaki High School. Her image color is royal blue. She is a member of DiverDiva, a unit under Nijigaku.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/a/a8/PDP_Profile_Image_-_Karin_Asaka.png/revision/latest/scale-to-width-down/250?cb=20180207192358",
                 "year": "Third year",
                 "birthday": "June 29",
                 "gender": "Female",
                 "bloodtype": "AB",
                 "height": "167 cm"
+            },
+            {
+                "name": "Mia Taylor",
+                "description": "Mia Taylor is a third year student that just recently transferred to Nijigasaki High School and is a member of R3BIRTH, a unit under Nijigaku. She is a recent transfer from New York and is bilingual in English and Japanese. Her image color is platinum silver.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/3/38/LL-SIFAS-Mia.png/revision/latest/scale-to-width-down/228?cb=20210708041704",
+                "year": "Third year",
+                "birthday": "December 6",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "156 cm"
+            },
+            {
+                "name": "Lanzhu Zhong",
+                "description": "Lanzhu Zhong is a second year student that just recently transferred to Nijigasaki High School and is a member of R3BIRTH, a unit under Nijigaku. She is from Hong Kong and speaks Mandarin and Cantonese fluently. Her image color is pink gold.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/5/52/LL-SIFAS-Lanzhu.png/revision/latest/scale-to-width-down/269?cb=20210708041702",
+                "year": "Third year",
+                "birthday": "February 15",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "165 cm"
+            },
+            {
+                "name": "Mifune Shioriko",
+                "description": "Shioriko Mifune is one of the main characters of Love Live! Nijigasaki High School Idol Club. She is a first year at Nijigasaki High School. She is a member of R3BIRTH, a unit under Nijigaku. Her image color is jade.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/5/56/Pdp_profile_mifune.png/revision/latest/scale-to-width-down/161?cb=20210126134952",
+                "year": "First year",
+                "birthday": "October 5",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "160 cm"
             }
         ],
         "liella": [
             {
                 "name": "Shibuya Kanon",
+                "description": "Kanon Shibuya is one of the five main characters in Love Live! Superstar!!. She is a first year at Yuigaoka Girls' High School and the leader and co-founder of Liella!. Her image color is marigold.",
                 "picture": "https://static.wikia.nocookie.net/love-live/images/7/7e/Kanon_Shibuya.png/revision/latest/scale-to-width-down/255?cb=20200714184732",
                 "year": "First year",
                 "birthday": "May 1",
@@ -308,6 +366,7 @@
             },
             {
                 "name": "Tang Keke",
+                "description": "Keke Tang is one of the five main characters in Love Live! Superstar!!. She is a first year at Yuigaoka Girls' High School and the co-founder of Liella!. Her image color is pastel blue.",
                 "picture": "https://static.wikia.nocookie.net/love-live/images/7/74/Tang_Keke.png/revision/latest/scale-to-width-down/255?cb=20200714184733",
                 "year": "First year",
                 "birthday": "July 17",
@@ -318,6 +377,7 @@
             },
             {
                 "name": "Arashi Chisato",
+                "description": "Chisato Arashi is one of the five main characters in Love Live! Superstar!!. She is a first year at Yuigaoka Girls' High School and a member of Liella!. Her image color is peach pink.",
                 "picture": "https://static.wikia.nocookie.net/love-live/images/c/c2/Chisato_Arashi.png/revision/latest/scale-to-width-down/255?cb=20200714184731",
                 "year": "First year",
                 "birthday": "February 25",
@@ -329,6 +389,7 @@
             },
             {
                 "name": "Heanna Sumire",
+                "description": "Sumire Heanna is one of the five main characters in Love Live! Superstar!!. She is a first year at Yuigaoka Girls' High School and a member of Liella!. Her image color is melon green.",
                 "picture": "https://static.wikia.nocookie.net/love-live/images/7/71/Sumire_Heanna.png/revision/latest/scale-to-width-down/255?cb=20200714184733",
                 "year": "First year",
                 "birthday": "September 28",
@@ -339,6 +400,7 @@
             },
             {
                 "name": "Hazuki Ren",
+                "description": "Ren Hazuki is one of the five main characters in Love Live! Superstar!!. She is a first year and student council president at Yuigaoka Girls' High School and a member of Liella!. Her image color is sapphire blue.",
                 "picture": "https://static.wikia.nocookie.net/love-live/images/8/81/Ren_Hazuki.png/revision/latest/scale-to-width-down/255?cb=20200714184732",
                 "year": "First year",
                 "birthday": "November 24",
@@ -353,6 +415,7 @@
         "nijigasaki-support": [
             {
                 "name": "Takasaki Yu",
+                "description": "Yu Takasaki is the main protagonist of Love Live! Nijigasaki High School Idol Club and the anime adaptation's representation of the player character in Love Live! School Idol Festival ALL STARS. She is a second year at Nijigasaki High School, and Nijigaku's manager and song composer. Her image color is black.",
                 "picture": "https://vignette.wikia.nocookie.net/love-live/images/d/d4/Yu_Anime.png/revision/latest/scale-to-width-down/203?cb=20200924155944",
                 "year": "Second year",
                 "gender": "Female",

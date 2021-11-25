@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lovelive_ibp">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="lovelive_ibp"
         android:icon="@mipmap/ic_launcher">
