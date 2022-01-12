@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+import 'package:flutter_triple/flutter_triple.dart';
 import 'package:lovelive_ibp/modules/idols/presenter/controllers/idols_controller.dart';
-import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
+import 'package:lovelive_ibp/modules/idols/presenter/widgets/idol_card.dart';
 import 'package:lovelive_ibp/shared/theme/colors.dart';
 
-import 'widgets/idol_card.dart';
+import '../../idols_state.dart';
 
 class LiellaPage extends StatefulWidget {
   const LiellaPage({Key? key}) : super(key: key);
@@ -31,29 +32,40 @@ class _LiellaPageState extends State<LiellaPage> {
         });
       }
     });
+    Modular.get<IdolsController>().observer(
+      onState: (state) => print(state),
+      onError: (error) => print(error),
+      onLoading: (loading) => print(loading),
+    );
+    Modular.get<IdolsController>().listLiella();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: FutureBuilder<List<Liella?>>(
-          future: controller.listLiella(),
-          builder: (_, AsyncSnapshot<List<Liella?>> snapshot) {
-            if (snapshot.hasData) {
+      body: ScopedBuilder(
+          store: Modular.get<IdolsController>(),
+          onLoading: (context) => _loader(),
+          onError: (context, ErrorIdolState? error) =>
+              Center(child: Text(error!.message)),
+          onState: (context, state) {
+            if (state is SuccessIdolState) {
               return PageView.builder(
                 controller: _pageController,
-                itemCount: snapshot.data!.length,
+                itemCount: state.idols.length,
                 itemBuilder: (_, index) {
-                  final idol = snapshot.data![index];
+                  final idol = state.idols[index];
                   final color = IdolColors.liellaColor[index];
                   return IdolCard(idol: idol, color: color).liella()!;
                 },
               );
             } else {
-              return const CircularProgressIndicator(color: Colors.white);
+              return _loader();
             }
           }),
     );
   }
+
+  _loader() => const CircularProgressIndicator(color: Colors.white);
 }
