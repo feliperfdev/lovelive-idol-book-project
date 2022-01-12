@@ -2,7 +2,7 @@ import 'dart:async';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 
-import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
+import 'package:lovelive_ibp/modules/idols/models/lovelive_api.dart';
 
 abstract class LoveLiveRepository {
   Future<List<Muses?>> listMuses();

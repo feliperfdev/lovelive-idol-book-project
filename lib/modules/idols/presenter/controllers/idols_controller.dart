@@ -1,38 +1,82 @@
-import 'package:lovelive_ibp/shared/api/lovelive_api.dart';
-import 'package:lovelive_ibp/shared/api/lovelive_repository.dart';
-import 'package:mobx/mobx.dart';
-part 'idols_controller.g.dart';
+import 'package:lovelive_ibp/modules/idols/models/lovelive_api.dart';
+import 'package:lovelive_ibp/modules/idols/repository/lovelive_repository.dart';
+import 'package:mobx_triple/mobx_triple.dart';
 
-class IdolsController = _IdolsControllerBase with _$IdolsController;
+import '../../idols_state.dart';
 
-abstract class _IdolsControllerBase with Store {
+class IdolsController extends MobXStore<ErrorIdolState, IdolState> {
+  IdolsController(this._loveLiveRepository) : super(InitialIdolState());
+
   final LoveLiveRepository _loveLiveRepository;
-
-  _IdolsControllerBase(this._loveLiveRepository);
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Muses] class object
-  Future<List<Muses?>> listMuses() => _loveLiveRepository.listMuses();
+  Future<void> listMuses() async {
+    setLoading(true);
+    try {
+      final muses = await _loveLiveRepository.listMuses();
+      update(SuccessIdolState(muses));
+    } catch (e) {
+      setError(ErrorIdolState("Erro ao carregar Idols!"));
+    }
+    setLoading(false);
+  }
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Aqours] class object
-  Future<List<Aqours?>> listAqours() => _loveLiveRepository.listAqours();
+  Future<void> listAqours() async {
+    setLoading(true);
+    try {
+      final aqours = await _loveLiveRepository.listAqours();
+      update(SuccessIdolState(aqours));
+    } catch (e) {
+      setError(ErrorIdolState("Erro ao carregar Idols!"));
+    }
+    setLoading(false);
+  }
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Nijigasaki] class object
-  Future<List<Nijigasaki?>> listNijigasaki() =>
-      _loveLiveRepository.listNijigasaki();
+  Future<void> listNijigasaki() async {
+    setLoading(true);
+    try {
+      final nijigasaki = await _loveLiveRepository.listNijigasaki();
+      update(SuccessIdolState(nijigasaki));
+    } catch (e) {
+      setError(ErrorIdolState("Erro ao carregar Idols!"));
+    }
+    setLoading(false);
+  }
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> a list of [Liella] class object
-  Future<List<Liella?>> listLiella() => _loveLiveRepository.listLiella();
+  Future<void> listLiella() async {
+    setLoading(true);
+    try {
+      final liella = await _loveLiveRepository.listLiella();
+      update(SuccessIdolState(liella));
+    } catch (e) {
+      setError(ErrorIdolState("Erro ao carregar Idols!"));
+    }
+    setLoading(false);
+  }
 
   /// [Fetch] data from local {database api}
   ///
   /// Specific data returned to ---> an object of [Support]
-  Future<Support?> getSupport() => _loveLiveRepository.getSupport();
+  Future<void> getSupport() async {
+    setLoading(true);
+    try {
+      final support = await _loveLiveRepository.getSupport();
+      final nijiSupport = support!.nijigasakiSupport!;
+      update(SuccessIdolState(nijiSupport));
+    } catch (e) {
+      setError(ErrorIdolState("Erro ao carregar Suporte!"));
+    }
+    setLoading(false);
+  }
 }
