@@ -408,6 +408,72 @@
                 "bloodtype": "A",
                 "height": "163 cm",
                 "favoritefood": "Consomme Soup, Strawberries, Darjeeling Tea"
+            },
+            {
+                "name": "Mei Yoheme",
+                "description": "Mei Yoneme is a main character in Love Live! Superstar!!. She is currently a second year student at Yuigaoka Girls' High School, initially being a first year in the second season (until the final episode where she becomes a second year). She is a member of Liella!. Her image color is rouge.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/6/64/Mei_Yoneme.png/revision/latest/scale-to-width-down/250?cb=20220428023032",
+                "year": "Second year",
+                "birthday": "October 29",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "155 cm",
+                "favoritefood": "Blueberries, Soufflé, Parfaits"
+            },
+            {
+                "name": "Kinako Sakurakoji",
+                "description": "Kinako Sakurakoji is a main character in Love Live! Superstar!!. She is currently a second year student at Yuigaoka Girls' High School, initially being a first year in the second season (until the final episode where she becomes a second year). She is a member of Liella!. Her image color is maize yellow.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/a/a0/Kinako_Sakurakoji.png/revision/latest/scale-to-width-down/250?cb=20220428023015",
+                "year": "Second year",
+                "birthday": "April 10",
+                "gender": "Female",
+                "bloodtype": "O",
+                "height": "159 cm",
+                "favoritefood": "Potatoes, Pumpkins, Corns"
+            },
+            {
+                "name": "Shiki Wakana",
+                "description": "Shiki Wakana is a main character in Love Live! Superstar!!. She is currently a second year student at Yuigaoka Girls' High School, initially being a first year in the second season (until the final episode where she becomes a second year). She is a member of Liella!. Her image color is ice green.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/e/e6/Shiki_Wakana.png/revision/latest/scale-to-width-down/250?cb=20220428023123",
+                "year": "Second year",
+                "birthday": "June 17",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "161 cm",
+                "favoritefood": "Chestnuts, Mont Blanc"
+            },
+            {
+                "name": "Natsumi Onitsuka",
+                "description": "Natsumi Onitsuka is a main character in Love Live! Superstar!!. She is currently a second year student at Yuigaoka Girls' High School, initially being a first year in the second season (until the final episode where she becomes a second year). She is a member of Liella!. Her image color is oninattsu pink.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/d/de/Natsumi_Onitsuka.png/revision/latest/scale-to-width-down/250?cb=20220428023134",
+                "year": "Second year",
+                "birthday": "August 7",
+                "gender": "Female",
+                "bloodtype": "AB",
+                "height": "152 cm",
+                "favoritefood": "Natto"
+            },
+            {
+                "name": "Wien Margarete",
+                "description": "Wien Margarete is a main character in Love Live! Superstar!!, initially a supporting character. She is a first year student at Yuigaoka Girls' High School, initially a third year junior before enrolling in the second season's finale. She is a mysterious girl who is fixated on Kanon Shibuya. She is a new member of Liella!. She debuted with the song Butterfly Wing when she was still a solo idol. Her image color is lavender.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/8/89/Wien_Margarete.png/revision/latest/scale-to-width-down/250?cb=20230428045609",
+                "year": "Third year",
+                "birthday": "January 20",
+                "gender": "Female",
+                "bloodtype": "A",
+                "height": "161 cm",
+                "favoritefood": "Chocolate"
+            },
+            {
+                "name": "Tomari Onitsuka",
+                "description": "Tomari Onitsuka is a new main character in Love Live! Superstar!!. She is a first year student at Yuigaoka Girls' High School. She is a new member of Liella!. Her image color is smoky blue.",
+                "picture": "https://static.wikia.nocookie.net/love-live/images/f/f4/Tomari_Onitsuka.png/revision/latest/scale-to-width-down/250?cb=20230503164213",
+                "year": "First year",
+                "birthday": "December 28",
+                "gender": "Female",
+                "bloodtype": "B",
+                "height": "163 cm",
+                "favoritefood": "Baked sweet potatoes"
             }
         ]
     },
